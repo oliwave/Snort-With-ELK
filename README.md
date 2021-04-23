@@ -6,8 +6,9 @@ Snort 網路入侵預防軟體與網路入侵檢測軟體。透過網路攔截�
 
 ## Snort3
 
-`oliwave/snort3` image 已經有安裝 `OpenAppID` 的相關套件，如有其他套件可以到 `snort3/Dockerfile` 自行添加
-。
+- `oliwave/snort3` image 已經有安裝 `OpenAppID` 的相關套件，如有其他套件可以到 `snort3/Dockerfile` 自行添加
+
+- 為了讓 snort3 container 可以監聽到 host 的 network traffics ， snort3 container 以 `network:host` 方式運行
 
 
 
