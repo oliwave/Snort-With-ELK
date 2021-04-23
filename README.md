@@ -4,5 +4,10 @@ Snort 網路入侵預防軟體與網路入侵檢測軟體。透過網路攔截�
 
 參考 [ELK on Docker Compsoe](https://github.com/FaelDi/docker-elk) 架設 ELK ，並將 Snort 整合進去。
 
+## Snort3
+
+`oliwave/snort3` image 已經有安裝 `OpenAppID` 的相關套件，如有其他套件可以到 `snort3/Dockerfile` 自行添加
+。
+
 
 
